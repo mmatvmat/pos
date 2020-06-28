@@ -51,18 +51,32 @@ public class ButtonsInjector implements ButtonsValues
     //ustalamy wyglad przyciskow - jest petla, bo dla czesci przyciskow ten wyglad sie powtarza
     private static void setButtonsCommonValues() {
         try {
-            for( int i = 0; i < buttons.length - 9; i++)
+            for( int i = 0; i < 3; i++)
             {
+                buttons[i].setOpaque(false);
+                buttons[i].setContentAreaFilled(false);
+                buttons[i].setBorderPainted(false);
+                buttons[i].setFont(LEVEL_FONT);
                 buttons[i].setBackground(BACKGROUND_NO_ACTION_COLOR);
                 buttons[i].setForeground(FOREGROUND_COLOR);
-                buttons[i].setFont(LEVEL_FONT);
                 setButtonHoverAction(buttons[i]);
+            }
+
+            for (int k = 3; k < buttons.length - 9; k++)
+            {
+                buttons[k].setBackground(BACKGROUND_NO_ACTION_COLOR);
+                buttons[k].setForeground(FOREGROUND_COLOR);
+                buttons[k].setFont(LEVEL_FONT);
+                setButtonHoverAction(buttons[k]);
             }
             for(int j = buttons.length - 9; j < buttons.length; j++)
             {
+                buttons[j].setOpaque(false);
+                buttons[j].setContentAreaFilled(false);
+                buttons[j].setBorderPainted(false);
+                buttons[j].setFont(FONT);
                 buttons[j].setBackground(BACKGROUND_NO_ACTION_COLOR);
                 buttons[j].setForeground(FOREGROUND_COLOR);
-                buttons[j].setFont(FONT);
                 setButtonHoverAction(buttons[j]);
             }
 

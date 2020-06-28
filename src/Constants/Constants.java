@@ -11,14 +11,14 @@ public class Constants
     public static final int HEIGHT = 768;
 
     public static final String[] IMAGE_URLS = {
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/10.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/9.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/8.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/7.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/6.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/5.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/4.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/3.png",
-            "/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/2.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\10.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\9.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\8.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\7.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\6.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\5.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\4.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\3.png",
+            "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\2.png",
     };
 }

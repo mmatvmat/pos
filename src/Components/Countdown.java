@@ -18,7 +18,7 @@ public class Countdown {
     public static void countdownTime(int time) throws IOException {
 
         //nasz plik z sygnalem dzwiekowym
-        String gongFile = "sound.au";
+        String gongFile = "C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\sound.au";
         //wczytywanie tego pliku do programu
         InputStream in = new FileInputStream(gongFile);
         AudioStream audioStream = new AudioStream(in);
@@ -31,6 +31,7 @@ public class Countdown {
 
             public void run()
             {
+                System.out.println(i--);
                 //jesli czas timera dobiegnie konca, to ma byc slychac nasz sygnal
                 if (this.i < 0)
                 {

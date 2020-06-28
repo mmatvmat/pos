@@ -10,7 +10,7 @@ public class ReturnToMenuButton extends JButton {
 
     private static final String BUTTON_TEXT = "POWRÓT";
 
-    //powrot do menu dla panelu z opisem
+    //powrot do menu dla panelu z opisem 
     public ReturnToMenuButton(final int X_BUTTON_POSITION, final int Y_BUTTON_POSITION, final int WIDTH, final int HEIGHT)
     {
         setSize(WIDTH, HEIGHT);

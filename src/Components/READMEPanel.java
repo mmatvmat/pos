@@ -11,7 +11,7 @@ public class READMEPanel extends JPanel
     Image img;
     public READMEPanel (final int WIDTH, final int HEIGHT)
     {
-        img = Toolkit.getDefaultToolkit().createImage("/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/opis2.png");
+        img = Toolkit.getDefaultToolkit().createImage("C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\opis2.png");
         setSize(WIDTH, HEIGHT);
         repaint();
         setVisible(true);

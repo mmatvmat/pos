@@ -32,7 +32,7 @@ public class LowTimerButton extends JButton {
             public void mouseClicked(MouseEvent e)
             {
                 try {
-                    countdownTime(60);
+                    countdownTime(5);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
