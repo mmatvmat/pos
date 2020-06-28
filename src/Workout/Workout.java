@@ -7,7 +7,6 @@ public class Workout
     public Workout()
     {
         startWorkout();
-
     }
 
     public void startWorkout()

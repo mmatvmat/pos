@@ -16,7 +16,7 @@ public class ChangePhotoMedium extends JButton {
     {
         setSize(WIDTH, HEIGHT);
         setLocation(X_BUTTON_POSITION, Y_BUTTON_POSITION);
-        setIcon(new ImageIcon("/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/Obrazki/1.png"));
+        setIcon(new ImageIcon("C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\Obrazki\\1.png"));
         setVisible(true);
         setBorderPainted(false);
         changePhoto();

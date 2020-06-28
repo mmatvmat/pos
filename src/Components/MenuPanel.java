@@ -14,7 +14,7 @@ public class MenuPanel extends JPanel
     //panel menu,analogicznie jak high level itp
     public MenuPanel (final int WIDTH, final int HEIGHT)
     {
-        img = Toolkit.getDefaultToolkit().createImage("/Users/mmatusia/Desktop/PoradnikPrzyszlegoKulturysty/rsz_background.png");
+        img = Toolkit.getDefaultToolkit().createImage("C:\\Users\\marta\\Desktop\\wersja z komentarzami\\PoradnikPrzyszlegoKulturysty\\rsz_background.png");
         setSize(WIDTH, HEIGHT);
         repaint();
         setVisible(true);
